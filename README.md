@@ -5,6 +5,6 @@ Most of those simple components are part of [Brad Traversy](https://github.com/b
 
 * Even though the projects ideas are not mine, I customized most of the projects in order to fill my studies necessities.
 * Simple projects which are not from their course may be added into this repo.
-* I may or may not use some libraries and frameworks like ReactJS and VueJS just for references, but this is a vanilla focused frontend practice repository.
+* I may or may not use some libraries and frameworks like ReactJS and VueJS just for reference, but this is a vanilla focused frontend practice repository.
 
 Keep studiyng my dudes.
