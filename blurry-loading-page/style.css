@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 * {
   box-sizing: border-box;
@@ -7,11 +7,28 @@
 
 body {
   align-items: center;
-  display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
   height: 100vh;
   justify-content: center;
   margin: 0;
   overflow: hidden;
+}
+
+.bg {
+  background: url('https://images.unsplash.com/photo-1603800964865-940b290fabcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80')
+    no-repeat center center/cover;
+  filter: blur(0px);
+  height: calc(100vh + 3.75em);
+  left: -1.875em; /*-30px*/
+  position: absolute;
+  top: -1.875em;
+  width: calc(100vw + 3.75em);
+  z-index: -1;
+}
+
+.loading-text {
+  color: #fff;
+  font-size: 50px;
 }
