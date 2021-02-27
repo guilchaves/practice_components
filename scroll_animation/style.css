@@ -17,22 +17,22 @@ body {
 }
 
 h1 {
-  margin: 10px;
+  margin: 0.625em;
 }
 
 .box {
   align-items: center;
   background-color: steelblue;
-  border-radius: 10px;
+  border-radius: 0.625em;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
   color: #fff;
   display: flex;
-  height: 200px;
+  height: 12.5em;
   justify-content: center;
-  margin: 10px;
+  margin: 0.625em;
   transform: translateX(400%);
   transition: transform 0.4s ease;
-  width: 400px;
+  width: 25em;
 }
 
 .box:nth-of-type(even) {
@@ -44,5 +44,5 @@ h1 {
 }
 
 .box h2 {
-  font-size: 45px;
+  font-size: 2.8125em;
 }
