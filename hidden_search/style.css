@@ -17,18 +17,18 @@ body {
 }
 
 .search {
-  height: 3.125em;
   position: relative;
+  height: 3.125em;
 }
 
 .search .input {
   background-color: #fff;
   border: 0;
   font-size: 1.125em;
-  height: 3.125em;
   padding: 0.9375em;
+  height: 2.7777777777777777em; /*default pixel size inherited from font-size*/
+  width: 2.7777777777777777em;
   transition: width 0.3s ease;
-  width: 3.125em;
 }
 
 .btn {
@@ -36,12 +36,12 @@ body {
   border: 0;
   cursor: pointer;
   font-size: 1.5em;
-  height: 3.125em;
-  left: 0;
   position: absolute;
   top: 0;
+  left: 0;
+  height: 2.0833333333333335em; /*default pixel size inherited from font-size*/
+  width: 2.0833333333333335em;
   transition: transform 0.3s ease;
-  width: 3.125em;
 }
 
 .btn:focus,
@@ -53,5 +53,5 @@ body {
 }
 
 .search.active .btn {
-  transform: translateX(12.375em);
+  transform: translateX(9em);
 }
