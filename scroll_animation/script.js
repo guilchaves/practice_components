@@ -4,6 +4,7 @@ window.addEventListener('scroll', checkBoxes)
 checkBoxes()
 
 function checkBoxes() {
+  //since the height cannot be a fixed number as it can have a different values on different viewports, this equation gives some space for better visual positioning of elements
   const triggerBottom = (window.innerHeight / 5) * 4
 
   boxes.forEach((box) => {
