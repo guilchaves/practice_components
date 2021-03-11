@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --left-bg-color: rgba(87, 84, 236, 0.7);
+  --right-bg-color: rgba(43, 43, 43, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+  /* enables to add padding or any border to an element, doesn't effect it's width */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  background: #333;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.split {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 50%;
+}
+
+.split.left::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--left-bg-color);
+}
+
+.split.left {
+  background: url('ps.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+}
+
+.split.right::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-bg-color);
+}
+
+.split.right {
+  background: url('xbox.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 0;
+}
